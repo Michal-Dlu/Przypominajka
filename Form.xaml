@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Przypominajka.Form"
+                        Title="Dodaj lub usuń lek do zapamietania">
+    <VerticalStackLayout BackgroundColor="Black">
+
+        <Entry x:Name="Lek" 
+                   Placeholder="Wprowadź Nazwę i Dawkę Leku" 
+                   TextColor="White" 
+                   MaxLength="50" 
+               Margin="20"
+               PlaceholderColor="#D3D3D3"/>
+
+        <Stepper x:Name="GodzinaPodania" 
+                   Minimum="0" Maximum="23" Increment="1"        
+                 ValueChanged="GodzinaPodania_ValueChanged"
+                 HorizontalOptions="Center"/>
+
+        <Label x:Name="GodzinaPodaniaLabel" 
+               Text="Godzina Podania: 0:00"
+               HorizontalOptions="Center" 
+               TextColor="White" 
+               Margin="10"/>
+
+        <Picker x:Name="DawkowaniePicker" Title="Wybierz dawkowanie:" SelectedIndexChanged="OnPickerSelectedIndexChanged"
+                Margin="20">
+            <Picker.Items>
+                <x:String>1 x dziennie</x:String>
+                <x:String>2 x dziennie</x:String>
+                <x:String>3 x dziennie</x:String>
+                <x:String>co 6 godzin</x:String>
+                <x:String>co 4 godziny</x:String>
+                <x:String>co 3 godziny</x:String>
+                <x:String>co 2 godziny</x:String>
+                <x:String>co godzinę</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button x:Name="send"
+                Text="Zatwierdź"
+                WidthRequest="200"
+               BackgroundColor="DarkOliveGreen"
+                HorizontalOptions="Center"
+                 Clicked = "OnButtonClicked"
+                TextColor="White"/>
+
+        <Picker x:Name="LekiPicker" 
+           Margin="20" Title="Wybierz lek do usunięcia"
+           SelectedIndexChanged="LekDoUsuniecia_SelectedIndexChanged"
+           ItemsSource="{Binding GodzinyText}">
+        </Picker>
+
+        <Button
+x:Name="Usun"
+Text="Usuń wybrany lek" 
+SemanticProperties.Hint="Counts the number of times you click"
+Clicked="DeleteButtonClicked"
+       WidthRequest="200"
+HorizontalOptions="Fill"
+            TextColor="White"/>
+
+    </VerticalStackLayout>
+</ContentPage>
