@@ -8,7 +8,7 @@ Currently developed and tested mainly for Android.
 - [Tech Stack](#tech-stack)
 - [Platform Support](#platform-support)
 - [How to run](#how-to-run)
-- 
+  
 
 ## Features
 Add reminders
