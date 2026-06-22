@@ -6,7 +6,7 @@ Currently developed and tested mainly for Android.
 ## Tech Stack
 ## Platform Support
 
-🚀 Features
+## Features
 Add reminders
 Local notifications
 SQLite local storage
