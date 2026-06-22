@@ -2,6 +2,10 @@
 
 Currently developed and tested mainly for Android.
 
+## Features
+## Tech Stack
+## Platform Support
+
 🚀 Features
 Add reminders
 Local notifications
