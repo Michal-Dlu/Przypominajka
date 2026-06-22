@@ -40,9 +40,10 @@ Android phone or emulator
 ▶️ How to run
 1. Clone repository
 git clone https://github.com/Michal-Dlu/Przypominajka.git
+
 cd przypominajka
 
-2. Open solution
+3. Open solution
 
 Open:
 
