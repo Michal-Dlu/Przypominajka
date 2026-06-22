@@ -2,9 +2,13 @@
 
 Currently developed and tested mainly for Android.
 
-## Features
-## Tech Stack
-## Platform Support
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Platform Support](#platform-support)
+- [How to run](#how-to-run)
+- 
 
 ## Features
 Add reminders
@@ -13,14 +17,14 @@ SQLite local storage
 MVVM architecture (CommunityToolkit.Mvvm)
 Cross-platform project structure (.NET MAUI)
 
-🛠️ Tech Stack
+## Tech Stack
 .NET 9 / .NET MAUI
 C#
 SQLite (sqlite-net-pcl)
 MVVM Toolkit
 Plugin.LocalNotification
 
-📱 Platform support
+## Platform support
 
 Currently working:
 
@@ -41,7 +45,7 @@ Visual Studio 2022 / 2025
 Android SDK (installed via Visual Studio)
 Android phone or emulator
 
-▶️ How to run
+## How to run
 1. Clone repository
 git clone https://github.com/Michal-Dlu/Przypominajka.git  
 cd przypominajka
