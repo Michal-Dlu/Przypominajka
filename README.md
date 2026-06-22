@@ -127,7 +127,38 @@ Select the dosage from the list by clicking “Wybierz dawkowanie”.
 
 <img width="250" height="500" alt="Screenshot_20260622-162404" src="https://github.com/user-attachments/assets/8636879c-aa04-4f86-b49c-fe76ddea0cc2" />  
 
-Finally, click “Zatwierdź” to save the medication.
+Finally, click “Zatwierdź” to save the medication.  
+
+<img width="250" height="500" alt="Screenshot_20260622-162412" src="https://github.com/user-attachments/assets/e1952590-f2f9-48c4-85cd-3f8fada15b08" />  
+
+🗑️ Deleting a medication
+
+The medication will appear on the main screen list after being added.
+
+To delete a medication:  
+
+On the start screen, click “Przejdź do drugiej strony”.
+
+Click : "Wybierz lek do usunięcia". 
+
+
+<img width="250" height="500" alt="Screenshot_20260622-162438" src="https://github.com/user-attachments/assets/4a73f12a-191b-40b9-90ca-67b8bed24931" />  
+
+Select it from the list.    
+
+Click “Usuń wybrany lek”.   
+
+<img width="250" height="500" alt="Screenshot_20260622-162448" src="https://github.com/user-attachments/assets/d573fdfb-9d93-4689-945c-34f69d06051e" />
+
+The medication will be removed from the list on the main screen.
+
+
+
+
+
+
+
+
 
 
 
