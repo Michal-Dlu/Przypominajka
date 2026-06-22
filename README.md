@@ -109,7 +109,7 @@ MIT License
 
 ➕ Adding a new reminder
 
-<img width="576" height="1283" alt="Screenshot_20260622-162253" src="https://github.com/user-attachments/assets/6049ea78-6e82-4671-83ff-61860da6f567" />  
+<img width="300" height="600" alt="Screenshot_20260622-162253" src="https://github.com/user-attachments/assets/6049ea78-6e82-4671-83ff-61860da6f567" />  
 On the start screen, click “Przejdź do drugiej strony”.  
 
 <img width="576" height="1283" alt="Screenshot_20260622-162303" src="https://github.com/user-attachments/assets/e9610a9c-24ea-41cb-8026-3c4439f20d1a" />  
