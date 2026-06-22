@@ -109,19 +109,24 @@ MIT License
 
 ➕ Adding a new reminder
 
-<img width="300" height="600" alt="Screenshot_20260622-162253" src="https://github.com/user-attachments/assets/6049ea78-6e82-4671-83ff-61860da6f567" />  
+<img width="250" height="500" alt="Screenshot_20260622-162253" src="https://github.com/user-attachments/assets/6049ea78-6e82-4671-83ff-61860da6f567" />  
+
 On the start screen, click “Przejdź do drugiej strony”.  
 
-<img width="576" height="1283" alt="Screenshot_20260622-162303" src="https://github.com/user-attachments/assets/e9610a9c-24ea-41cb-8026-3c4439f20d1a" />  
+<img width="250" height="500" alt="Screenshot_20260622-162303" src="https://github.com/user-attachments/assets/e9610a9c-24ea-41cb-8026-3c4439f20d1a" />  
+
 Enter the name of the medication you want to save in the text field: "Wprowadź Nazwę i Dawkę Leku.  
 
-<img width="576" height="1283" alt="Screenshot_20260622-162338" src="https://github.com/user-attachments/assets/159784b6-1683-4c67-b6b9-ecd76f3e7233" />  
+<img width="250" height="500" alt="Screenshot_20260622-162338" src="https://github.com/user-attachments/assets/159784b6-1683-4c67-b6b9-ecd76f3e7233" />  
+
 Use the + or − buttons to set the time for the first dose.  
 
-<img width="576" height="1283" alt="Screenshot_20260622-162353" src="https://github.com/user-attachments/assets/099b653b-c637-478f-923d-d39b46b7dcf4" />  
+<img width="250" height="500" alt="Screenshot_20260622-162353" src="https://github.com/user-attachments/assets/099b653b-c637-478f-923d-d39b46b7dcf4" />  
+
 Select the dosage from the list by clicking “Wybierz dawkowanie”.  
 
-<img width="576" height="1283" alt="Screenshot_20260622-162404" src="https://github.com/user-attachments/assets/8636879c-aa04-4f86-b49c-fe76ddea0cc2" />  
+<img width="250" height="500" alt="Screenshot_20260622-162404" src="https://github.com/user-attachments/assets/8636879c-aa04-4f86-b49c-fe76ddea0cc2" />  
+
 Finally, click “Zatwierdź” to save the medication.
 
 
