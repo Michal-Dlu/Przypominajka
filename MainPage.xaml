@@ -20,20 +20,29 @@
         <VerticalStackLayout
         Padding="30"
        BackgroundColor="Black">
-            <Image
+            
+            <Border
+        StrokeThickness="0"
+        StrokeShape="RoundRectangle 20"
+                Margin="20">
+                <Image
             Source="leki.jpg"
             HeightRequest="185"
-            Aspect="AspectFit"
-            
+            Aspect="AspectFill"
+                    
             />
+            </Border>
 
             <Label
             Text="Przypominacz"
+                TextColor="White"
             Style="{StaticResource Headline}"
             SemanticProperties.HeadingLevel="Level1" />
 
             <Label
             Text="Przypomnę Ci o Twoich lekach"
+                TextColor="White"
+                Margin="0,20,0,0"
             Style="{StaticResource SubHeadline}"
             SemanticProperties.HeadingLevel="Level2"
             SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
@@ -44,14 +53,19 @@
             SemanticProperties.Hint="Counts the number of times you click"
             Clicked="OnNavigateButtonClicked"
             HorizontalOptions="Fill" 
-            TextColor="White"/>
+            TextColor="White"
+                Margin="0,20,0,0"
+                />
 
 
             <VerticalStackLayout>
                 <Label                
             Text="Lista leków"
+                    TextColor="White"
             Style="{StaticResource Headline}"
+            Margin="0,20,10,0"                    
             SemanticProperties.HeadingLevel="Level1"/>
+                
                 <CollectionView ItemsSource="{Binding LekiLabel.ItemsSource}"
                             x:Name="LekiLabel">
 

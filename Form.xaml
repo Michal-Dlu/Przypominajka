@@ -15,7 +15,8 @@
         <Stepper x:Name="GodzinaPodania" 
                    Minimum="0" Maximum="23" Increment="1"        
                  ValueChanged="GodzinaPodania_ValueChanged"
-                 HorizontalOptions="Center"/>
+                 HorizontalOptions="Center"
+                />
 
         <Label x:Name="GodzinaPodaniaLabel" 
                Text="Godzina Podania: 0:00"
@@ -24,7 +25,8 @@
                Margin="10"/>
 
         <Picker x:Name="DawkowaniePicker" Title="Wybierz dawkowanie:" SelectedIndexChanged="OnPickerSelectedIndexChanged"
-                Margin="20">
+                Margin="20"
+                TitleColor="White">
             <Picker.Items>
                 <x:String>1 x dziennie</x:String>
                 <x:String>2 x dziennie</x:String>
@@ -46,9 +48,11 @@
                 TextColor="White"/>
 
         <Picker x:Name="LekiPicker" 
+              
            Margin="20" Title="Wybierz lek do usunięcia"
            SelectedIndexChanged="LekDoUsuniecia_SelectedIndexChanged"
-           ItemsSource="{Binding GodzinyText}">
+           ItemsSource="{Binding GodzinyText}"
+                TitleColor="White">
         </Picker>
 
         <Button
