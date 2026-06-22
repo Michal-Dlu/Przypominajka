@@ -18,11 +18,11 @@ MVVM architecture (CommunityToolkit.Mvvm)
 Cross-platform project structure (.NET MAUI)
 
 ## Tech Stack
-.NET 9 / .NET MAUI
-C#
-SQLite (sqlite-net-pcl)
-MVVM Toolkit
-Plugin.LocalNotification
+.NET 9 / .NET MAUI  
+C#  
+SQLite (sqlite-net-pcl)  
+MVVM Toolkit  
+Plugin.LocalNotification  
 
 ## Platform support
 
@@ -41,9 +41,9 @@ Not fully tested:
 To run this project you need:
 
 Visual Studio 2022 / 2025
-.NET MAUI workload installed
-Android SDK (installed via Visual Studio)
-Android phone or emulator
+.NET MAUI workload installed  
+Android SDK (installed via Visual Studio)  
+Android phone or emulator  
 
 ## How to run
 1. Clone repository
@@ -75,9 +75,9 @@ F5 (Start Debugging)
 
 If using a real phone:
 
-Enable Developer Options
-Enable USB Debugging
-Accept RSA prompt on device
+Enable Developer Options  
+Enable USB Debugging  
+Accept RSA prompt on device  
 
 ⚠️ Known issues
 First deployment may fail if old version is installed → uninstall app from device and try again
@@ -85,21 +85,21 @@ ADB must detect device (adb devices should list it)
 Some builds may require clean rebuild after ABI/config changes
 
 📁 Project structure
-/Platforms
-/Views
-/ViewModels
-/Models
-/Services
-/Resources
+/Platforms  
+/Views  
+/ViewModels  
+/Models  
+/Services  
+/Resources  
 
 🧠 Architecture
 
 This project uses MVVM pattern:
 
-Views → UI (XAML)
-ViewModels → logic
-Models → data
-Services → database + notifications
+Views → UI (XAML)  
+ViewModels → logic  
+Models → data  
+Services → database + notifications  
 
 📄 License
 
